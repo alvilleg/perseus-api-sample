@@ -1,1 +1,73 @@
-{"resources":[{"req":[1,1],"id":"RES_001"}],"iniColor":"red","iniLat":3.451052,"iniLng":-76.557934,"points":[{"id":"R_1","desc":"4444441","address":"Direc 1","color":"green","phone":"4557","name":"POS 1","lng":-76.524264,"lat":3.45979},{"id":"R_2","desc":"4444442","address":"Direc 2","name":"POS 2","lng":-76.518255,"st":0,"lt":"18:00","req":[0,0],"et":"7:00","lat":3.453965},{"id":"R_3","desc":"4444443","address":"Direc 3","name":"POS 3","lng":-76.53704,"st":0,"lt":"18:00","req":[0,0],"et":"7:00","lat":3.446597},{"id":"R_4","desc":"4444443","address":"Direc 3","name":"POS 3","lng":-76.528113,"st":0,"lt":"18:00","req":[0,0],"et":"7:00","lat":3.434859}]}
+{
+"resources" : [
+{
+"req" : [
+1,
+1
+],
+"id"  : "RES_001"
+}
+],
+"iniColor"  : "ff0f0f",
+"iniLat"    : 3.451052,
+"iniLng"    : -76.557934,
+"points" : [
+{
+"id"      : "R_1",
+"desc"    : "4444441",
+"address" : "Direc 1",
+"color"   : "0f0fff",
+"phone"   : "4557",
+"name"    : "POS 1",
+"lat"     : 6.524264,
+"lng"     : -73.45979
+},
+{
+"id"      : "R_2",
+"desc"    : "4444442",
+"address" : "Direc 2",
+"name"    : "POS 2",
+"lng"     : -76.518255,
+"color"   : "0fffcc",
+"st"      : 0,
+"lt"      : "18:00",
+"req" : [
+0,
+0
+],
+"et"      : "7:00",
+"lat"     : 3.453965
+},
+{
+"id"      : "R_3",
+"desc"    : "4444443",
+"address" : "Direc 3",
+"name"    : "POS 3",
+"color"   : "fff0c0",
+"lng"     : -76.53704,
+"st"      : 0,
+"lt"      : "18:00",
+"req" : [
+0,
+0
+],
+"et"      : "7:00",
+"lat"     : 3.446597
+},
+{
+"id"      : "R_4",
+"desc"    : "4444443",
+"address" : "Direc 3",
+"name"    : "POS 3",
+"lng"     : -76.528113,
+"st"      : 0,
+"lt"      : "18:00",
+"req" : [
+0,
+0
+],
+"et"      : "7:00",
+"lat"     : 3.434859
+}
+]
+}

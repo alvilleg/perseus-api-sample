@@ -29,8 +29,8 @@ import java.util.List;
  */
 public class App {
 
-    private static final String serverUrl = "http://localhost:8071";// "http://perseus.bgx.me";
-    private static final String routeApiUrl = "action/route/route.jsp";
+    private static final String SERVER = "http://perseus.bgx.me";
+    private static final String ROUTE_API_URL = "action/route/route.jsp";
     private static final String user = "test-user2";
     private static final String apiKey = "8a828e41354abf2801354ace6d180001";
     private static final String cityCode = "76001";
@@ -55,7 +55,7 @@ public class App {
     public void execute(OutputStream os) {
         try {
             Map<String, String> parameters = buildParameters(new File(fileName));
-            postData(parameters, serverUrl + "/" + routeApiUrl, os);
+            postData(parameters, SERVER + "/" + ROUTE_API_URL, os);
         } catch (IOException e) {
             e.printStackTrace(); // To change body of catch statement use File |
                                  // Settings | File Templates.
